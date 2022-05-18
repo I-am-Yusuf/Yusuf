@@ -1,0 +1,53 @@
+.positions{
+    height:250vh;
+    width:70%;
+    border:1px solid red;
+    position: relative;
+    top:50px;
+    left:100px;
+}
+.class1{
+    height:15vh;
+    width:20%;
+    border:1px solid red;
+    position: sticky;
+    background-color:aqua;
+    top:0;
+    right:0;
+}
+.class2{
+    height:15vh;
+    width:20%;
+    border:1px solid red;
+    position: fixed;
+    bottom:0;
+    background-color:red;
+    right:0;
+}
+.class3{
+    height:15vh;
+    width:20%;
+    border:1px solid red;
+    
+    bottom:0;
+    left:0;
+    background-color: black;
+}
+.class4{
+    height:15vh;
+    width:20%;
+    border:1px solid red;
+    
+    top:30vh;
+    left:35%;
+    background-color: indigo;
+}
+.class5{
+    height:15vh;
+    width:20%;
+    border:1px solid red;
+    background-color:yellow;
+    
+    top:0px;
+    left:0px;
+}

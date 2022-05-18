@@ -1,0 +1,22 @@
+.transform img{
+    height: 500px;
+    width:500px;
+    object-fit: cover;
+    transform:translate(700px,40px);
+    transform: scale(3,3);
+    animation-name: Joseph;
+    animation-duration:100s;
+    /* animation-iteration-count: infinite; */
+}
+@keyframes Joseph{
+    0%{
+        transform:translate(1000px,300px) rotate(60deg);
+
+    }
+    25%{
+        transform:translate(500px, -270px) rotate(90deg);
+    }
+    100%{
+        transform:translate(700px, 40px);
+    }
+}

@@ -1,0 +1,20 @@
+#navbar{
+    position: sticky;
+    border: 2px dashed blue;
+    height:30vh;
+
+}
+ul{
+    float: right;
+    margin-right: 10vh;
+    
+    
+}
+.inline{
+    display: inline;
+}
+
+ul li {
+    display: inline;
+}
+
